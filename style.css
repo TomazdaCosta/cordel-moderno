@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+/*'Luckiest Guy', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*'Indie Flower', cursive;*/
+
+body {
+     background-color: #ceffce;
+     margin: 0px;
+}
+
+header {
+     background-color: #004200;
+     color: yellow;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     text-align: center;
+}
+
+header > h1 {
+     font: bolder 3em 'Luckiest Guy', cursive;;
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+
+header > p {
+     font: normal 1.2em 'Indie Flower', cursive;
+     margin-top: 5px;
+}
+
+header > p > a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+header > p > a:hover {
+     color: crimson;
+}
+
+main {
+     font: bold 1.2em 'Indie Flower', cursive;
+     max-width: 1000px;
+     min-width: 320px;
+     margin: auto;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+article.estrofe {
+     background-color: white;
+     padding: 20px;
+     box-shadow: 3px 3px 5px #0000007a;
+}
+
+article#e1 {
+     background: url('imgs/background001.jpg') center center no-repeat fixed;
+}
+
+article#e2 {
+     background: url('imgs/background002.jpg') center center no-repeat fixed;
+}
+
+div#c1 {
+     background-color: #00000062;
+     color: white;
+     max-width: 250px;
+     padding: 10px;
+}
+
+div#c2 {
+     background-color: #00000062;
+     color: white;
+     max-width: 250px;
+     padding: 10px;
+}
+
+footer > p {
+     background-color: #004200;
+     color: yellow;
+     font: bold 1em 'Indie Flower', cursive;
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     padding: 2px;
+}
