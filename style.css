@@ -14,7 +14,7 @@ body {
 
 header {
      background-color: #004200;
-     color: yellow;
+     color: #ffff00;
      padding-top: 20px;
      padding-bottom: 10px;
      text-align: center;
@@ -32,13 +32,13 @@ header > p {
 }
 
 header > p > a {
-     color: white;
+     color: #ffffff;
      text-decoration: none;
      font-weight: bold;
 }
 
 header > p > a:hover {
-     color: crimson;
+     color: #dc143c;
 }
 
 main {
@@ -51,8 +51,11 @@ main {
 }
 
 article.estrofe {
-     background-color: white;
-     padding: 20px;
+     background-color: #ffffff;
+     padding-top: 10vh;
+     padding-bottom: 10vh;
+     padding-right: 20px;
+     padding-left: 20px;
      box-shadow: 3px 3px 5px #0000007a;
 }
 
@@ -66,21 +69,21 @@ article#e2 {
 
 div#c1 {
      background-color: #00000062;
-     color: white;
+     color: #ffffff;
      max-width: 250px;
      padding: 10px;
 }
 
 div#c2 {
      background-color: #00000062;
-     color: white;
+     color: #ffffff;
      max-width: 250px;
      padding: 10px;
 }
 
 footer > p {
      background-color: #004200;
-     color: yellow;
+     color: #ffff00;
      font: bold 1em 'Indie Flower', cursive;
      text-align: center;
      margin-top: 0px;
