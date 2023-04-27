@@ -60,11 +60,15 @@ article.estrofe {
 }
 
 article#e1 {
-     background: url('imgs/background001.jpg') center center no-repeat fixed;
+     background: url('imgs/background001.jpg') right bottom no-repeat fixed;
+     background-size: cover;
+     box-shadow: inset 4px 4px 13px rgba(0, 0, 0, 0.534);
 }
 
 article#e2 {
-     background: url('imgs/background002.jpg') center center no-repeat fixed;
+     background: url('imgs/background002.jpg') right bottom no-repeat fixed;
+     background-size: cover;
+     box-shadow: inset 4px 4px 13px rgba(0, 0, 0, 0.534);
 }
 
 div#c1 {
